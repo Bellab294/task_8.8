@@ -4,14 +4,14 @@ consoleLog.addEventListener('click', () => {
     alert('Служит для вывода информации в консоль');
 })
 
-const alert = document.querySelector('#alert');
+const alertname = document.querySelector('#alert');
 
-alert.addEventListener('click', () => {
+alertname.addEventListener('click', () => {
     alert('Служит для отображения информации для пользователей');
 })
 
-const prompt = document.querySelector('#prompt');
+const promptname = document.querySelector('#prompt');
 
-prompt.addEventListener('click', () => {
+promptname.addEventListener('click', () => {
     alert('Отображает диалоговое окно с запросом на ввод текста');
 })

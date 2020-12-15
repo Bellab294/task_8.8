@@ -4,7 +4,7 @@ linktext.addEventListener('click', (evt) => {
     const userText = prompt('Введите текст');
     console.log(userText);
     linktext.textContent = userText;
-    console.log('Текст в a изменён на', userText);
+    
 })
 
 
